@@ -1,0 +1,88 @@
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Helvetica Neue';
+    background-color: rgb(255, 255, 255);
+}
+
+table thead{
+    background: rgba(0, 149, 255, 0.71);
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 25px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #19156a, #440385);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Helvetica Neue'
+}
+
+table tr td{
+    font-size: 20;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid;
+}
+
+.table-title{
+    text-align: center;
+    font-size: 37px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #1698c8, #240147);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Helvetica Neue'
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button1 {
+    background-color: rgb(245, 248, 248);
+    border: none;
+    color: rgb(8, 1, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 24px;
+    display: block; /* make the button a block-level element */
+    /* margin: 0 auto; horizontally center the button */
+    cursor: pointer;
+  }
+.button2 {
+    background-color: rgb(6, 30, 30);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 24px;
+    display: block; /* make the button a block-level element */
+    /* margin: 0 auto; horizontally center the button */
+    cursor: pointer;
+
+  }
+
+.understand{
+    color: green;
+  }
+
+.notunderstand{
+    color: red;
+  }
+
+.middel{
+    color: orange;
+  }
+
+  body {
+    background: linear-gradient(to bottom right, #6cedcf, #647bf1);
+  }
